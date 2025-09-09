@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ffffff, #a5b8b9);
+  background: #445fd7ed;
   color: white;
   min-height: 100vh;
   display: flex;
@@ -12,8 +12,8 @@ body {
 
 .app {
   text-align: center;
-  width: 100%;
-  max-width: 400px;
+  width: 500px;
+  max-width: 1800px;
   padding: 20px;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .weather-card {
-  background: white;
+  background: rgb(110, 172, 227);
   color: #333;
   border-radius: 15px;
   padding: 20px;
@@ -65,9 +65,10 @@ body {
 }
 
 .weather-icon {
-  width: 100px;
-  height: 100px;
-  margin: 15px 0;
+  width: 45px;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 
 .description {
@@ -83,5 +84,12 @@ body {
 
 .loading {
   font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
   margin-top: 20px;
 }
